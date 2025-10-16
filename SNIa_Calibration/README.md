@@ -12,16 +12,12 @@ This folder contains the mock Type Ia supernova (SN Ia) calibration analysis acc
 The mock dataset mimics the structure of the Pantheon+ compilation and includes:
 - **Calibrator SNe:** distance moduli drawn from Cepheid-based SH0ES distances.  
 - **Hubble-flow SNe:** distance moduli computed from a flat ΛCDM cosmology.  
-- **Host masses:** drawn from the Pantheon+ distribution with redshift-dependent uncertainty modeled as  
-  \[
-  \delta_\mathrm{stat}(z) = c\,(1+z)^n,
-  \]
-  with a systematic floor $\delta_\mathrm{meth}$ added in quadrature.
+- **Host masses:** drawn from the Pantheon+ distribution with redshift-dependent uncertainty plus a systematic floor added in quadrature.
 
 Before running the notebook, make sure the following folders exist in the same directory:
 data/, output/, and plots/.
 These folders are used to store input data, generated results, and figures, respectively.
 
-The method compares the **Ising-marginalized** treatment of host-mass uncertainty with the standard **fixed (deterministic)** mass-step approach, showing that:
+The method generates mock data mimicking the statistical properties of the Pantheon+ sample and uses the **Ising-marginalized** framework to retain the model parameters, showing that:
 - Host-mass uncertainty affects the inferred mass-step parameters $(\gamma, M_\star)$,  
 - but has negligible impact on the cosmological parameters $(H_0, \Omega_m, M_B)$.
