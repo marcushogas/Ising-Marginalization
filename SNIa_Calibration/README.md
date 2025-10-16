@@ -5,8 +5,8 @@ This folder contains the mock Type Ia supernova (SN Ia) calibration analysis acc
 
 ## Contents
 - **SN_Ia_Calibration.ipynb** – main notebook generating mock data, fitting the model, and visualizing posterior distributions.  
-- **data/** – input mock data and mass-distribution templates.  
-- **plots/** – generated figures (mass distribution, log-mass uncertainties, marginalized posteriors, etc.).
+- **Pantheon+SH0ES.dat** – input data from Pantheon+ and SH0ES.  
+- **table6.txt** – input data from SH0ES.
 
 ## Method Summary
 The mock dataset mimics the structure of the Pantheon+ compilation and includes:
@@ -17,6 +17,10 @@ The mock dataset mimics the structure of the Pantheon+ compilation and includes:
   \delta_\mathrm{stat}(z) = c\,(1+z)^n,
   \]
   with a systematic floor $\delta_\mathrm{meth}$ added in quadrature.
+
+Before running the notebook, make sure the following folders exist in the same directory:
+data/, output/, and plots/.
+These folders are used to store input data, generated results, and figures, respectively.
 
 The method compares the **Ising-marginalized** treatment of host-mass uncertainty with the standard **fixed (deterministic)** mass-step approach, showing that:
 - Host-mass uncertainty affects the inferred mass-step parameters $(\gamma, M_\star)$,  
