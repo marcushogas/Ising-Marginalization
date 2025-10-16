@@ -17,7 +17,3 @@ The mock dataset mimics the structure of the Pantheon+ compilation and includes:
 Before running the notebook, make sure the following folders exist in the same directory:
 data/, output/, and plots/.
 These folders are used to store input data, generated results, and figures, respectively.
-
-The method generates mock data mimicking the statistical properties of the Pantheon+ sample and uses the **Ising-marginalized** framework to retain the model parameters, showing that:
-- Host-mass uncertainty affects the inferred mass-step parameters $(\gamma, M_\star)$,  
-- but has negligible impact on the cosmological parameters $(H_0, \Omega_m, M_B)$.
