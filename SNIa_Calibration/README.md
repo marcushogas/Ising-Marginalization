@@ -4,7 +4,7 @@ This folder contains the mock Type Ia supernova (SN Ia) calibration analysis acc
 *“Analytic Marginalization over Binary Variables in Physics Data” (Högås et al., 2025).*
 
 ## Contents
-- **SN_Ia_Calibration.ipynb** – main notebook generating mock data, fitting the model, and visualizing posterior distributions.  
+- **SNIa_Calibration.ipynb** – main notebook generating mock data, fitting the model, and visualizing posterior distributions.  
 - **Pantheon+SH0ES.dat** – input data from Pantheon+ and SH0ES.  
 - **table6.txt** – input data from SH0ES.
 
