@@ -6,7 +6,7 @@ This folder contains the mock Type Ia supernova (SN Ia) calibration analysis acc
 ## Contents
 - **SNIa_Calibration.ipynb** – main notebook generating mock data, fitting the model, and visualizing posterior distributions.  
 - **[Pantheon+SH0ES.dat](Pantheon+SH0ES.dat/)** – input data from Pantheon+ and SH0ES.  
-- **table6.txt** – input data from SH0ES.
+- **[table6.txt](table6.txt/)** – input data from SH0ES.
 
 ## Method Summary
 The mock dataset mimics the structure of the Pantheon+ compilation and includes:
