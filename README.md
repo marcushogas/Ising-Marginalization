@@ -4,7 +4,7 @@ Marginalization over binary variables — mapping statistical data analysis prob
 This repository accompanies the paper *"Analytic Marginalization over Binary Variables in Physics Data"* (Högås et al., 2025) and provides example notebooks illustrating the method and its applications.
 
 ## Contents
-- **[Toy_Example.ipynb](/Toy_Example/Toy_Example.ipynb)** – minimal working demonstration of the Ising-marginalization formalism.  
+- **[Toy_Example.ipynb](/Toy_Example/Toy_Example.ipynb)** – minimal working demonstration of the Ising-marginalization formalism. Designed to allow seamless extension to more advanced applications.  
 - **[Mock_SNIa_Cal.ipynb](/SNIa_Calibration/Mock_SNIa_Cal.ipynb)** – mock Type Ia supernova analysis mimicking the Pantheon+ sample, showing how the Ising approach handles uncertainty in host-galaxy mass classification. 
 
 ## Overview
