@@ -5,7 +5,7 @@ This repository accompanies the paper *"Analytic Marginalization over Binary Var
 
 ## Contents
 - **[Toy_Example.ipynb](/Toy_Example/Toy_Example.ipynb)** – minimal working demonstration of the Ising-marginalization formalism.  
-- **[SNIa_Calibration.ipynb](/SNIa_Calibration/SNIa_Calibration.ipynb)** – mock Type Ia supernova analysis mimicking the Pantheon+ sample, showing how the Ising approach handles uncertainty in host-galaxy mass classification. 
+- **[Mock_SNIa_Cal.ipynb](/SNIa_Calibration/Mock_SNIa_Cal.ipynb)** – mock Type Ia supernova analysis mimicking the Pantheon+ sample, showing how the Ising approach handles uncertainty in host-galaxy mass classification. 
 
 ## Overview
 The Ising-marginalization method allows analytic treatment of discrete or binary nuisance parameters without exponentially scaling computational cost. It reformulates the likelihood correction as the log-partition function of an Ising model, enabling efficient marginalization and a clear physical interpretation of correlations and priors.
