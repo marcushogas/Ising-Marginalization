@@ -1,7 +1,7 @@
 # Type Ia Supernova Calibration Example
 
 This folder contains the mock Type Ia supernova (SN Ia) calibration analysis accompanying  
-*“Analytic Marginalization over Binary Variables in Physics Data” (Högås et al., 2025).*
+[*"Analytic Marginalization over Binary Variables in Physics Data"* (Högås et al., 2025).](https://arxiv.org/abs/2510.21912)
 
 ## Contents
 - **[Mock_SNIa_Cal.ipynb](Mock_SNIa_Cal.ipynb)** – main notebook generating mock data, fitting the model, and visualizing posterior distributions.  
