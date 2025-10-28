@@ -15,4 +15,4 @@ To download a file, go to the repository, click on the file and select "Download
 
 ## Attribution
 If you use this code or method, please cite:  
-> [*Analytic Marginalization over Binary Variables in Physics Data*, 2025.](https://arxiv.org/abs/2510.21912)
+> [arXiv:2510.21912](https://arxiv.org/abs/2510.21912)
