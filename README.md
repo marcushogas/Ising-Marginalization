@@ -1,7 +1,7 @@
 # Ising-Marginalization
 Marginalization over binary variables — mapping statistical data analysis problems to the Ising model.
 
-This repository accompanies the paper *"Analytic Marginalization over Binary Variables in Physics Data"* (Högås et al., 2025) and provides example notebooks illustrating the method and its applications.
+This repository accompanies the paper [*"Analytic Marginalization over Binary Variables in Physics Data"* (Högås et al., 2025)](https://arxiv.org/abs/2510.21912) and provides example notebooks illustrating the method and its applications.
 
 ## Contents
 - **[Toy_Example.ipynb](/Toy_Example/Toy_Example.ipynb)** – minimal working demonstration of the Ising-marginalization formalism. Designed to allow seamless extension to more advanced applications.  
